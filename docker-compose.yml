@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  backend:
+    image: min-coin-exchange-backend
+    container_name: min-coin-exchange-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  frontend:
+    image: min-coin-exchange-ui
+    container_name: min-coin-exchange-ui
+    ports:
+      - "3000:80"
+    networks:
+      - app-network
+    depends_on:
+      - backend
+
+networks:
+  app-network:
+    driver: bridge
