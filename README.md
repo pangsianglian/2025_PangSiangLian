@@ -18,6 +18,7 @@ A full-stack Coin Exchange application designed to calculate the minimum number 
 ---
 
 ## 🗂️ Project Structure
+```plaintext
 /
 ├── backend/
 │ ├── src/
@@ -30,6 +31,7 @@ A full-stack Coin Exchange application designed to calculate the minimum number 
 │ ├── Dockerfile
 │
 └── docker-compose.yml
+```
 
 ## ⚙️ How to Run Locally
 
