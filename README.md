@@ -19,12 +19,12 @@ A full-stack Coin Exchange application designed to calculate the minimum number 
 
 ## 🗂️ Project Structure
 /
-├── MinCoinExchange/
+├── backend/
 │ ├── src/
 │ ├── pom.xml
 │ ├── Dockerfile
 │
-├── min-coin-exchange-ui/
+├── frontend/
 │ ├── src/
 │ ├── package.json
 │ ├── Dockerfile
