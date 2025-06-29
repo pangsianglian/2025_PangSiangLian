@@ -58,7 +58,7 @@ http://localhost:8080/coin-exchange
 curl -X POST http://localhost:8080/coin-exchange -H "Content-Type: application/json" -d "{\"amount\": 6.75, \"denominations\": [10.0, 5.0, 1.0, 0.5, 0.2, 0.1, 0.05, 0.01]}"
 ```
 **Sample Output:**
-Output: {"coins":[0.05,0.2,0.5,1.0,5.0]}
+{"coins":[0.05,0.2,0.5,1.0,5.0]}
 
 ### Frontend
 Stay in the root folder (<your-file-path>/2025_PangSiangLian):
